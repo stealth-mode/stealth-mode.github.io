@@ -27,6 +27,11 @@ summary {
   display: block;
 }
 
+iframe {
+	margin-top: 10px;
+	border: 1px #eee solid;
+}
+
 audio,
 canvas,
 video {
@@ -4816,8 +4821,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #18bc9c;
-  border-color: #128f76;
+  background-color: #FFAD07;
+  border-color: #FFAD07;
 }
 
 .navbar-inverse .navbar-brand {
@@ -4873,7 +4878,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #149c82;
+  border-color: #FFAD07;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
@@ -5274,7 +5279,6 @@ a.list-group-item.active > .badge,
 
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
   font-size: 22.5px;
   font-weight: 200;
   line-height: 2.1428571435;

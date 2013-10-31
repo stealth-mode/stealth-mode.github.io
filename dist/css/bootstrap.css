@@ -4154,6 +4154,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .nav-justified > li > a {
   text-align: center;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -4561,6 +4562,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-nav {
   margin: 9.75px -15px;
 }
+
+
+.navbar-nav.nav-justified > li {
+	float:none;
+}
+
 
 .navbar-nav > li > a {
   padding-top: 10px;

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Молитва за сім'ю і Україну</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+     <body>
+
+    <div class="jumbotron" style="background: url(field.png) no-repeat center center; padding-top: 80px; ">
+      <div class="container">
+          <h1><a style="color: #2c3e50" align="center" href="/">Молитва за сім'ю і Україну</a></h1>
+      </div>
+    </div>
+
+    <div class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav nav-justified">
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+            <li><a href="advice-ua.html">ПОРАДИ</a></li>
+            <!--<li><a href="#contact">КАРТА</a></li>-->
+            <li><a href="comments.html">ДІАЛОГИ</a></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <script id="_wauqny">var _wau = _wau || [];
+_wau.push(["map", "q36ivaxpgnwy", "qny", "840", "420", "neosat", "star-blue"]);
+(function() {var s=document.createElement("script"); s.async=true;
+s.src="http://widgets.amung.us/map.js";
+document.getElementsByTagName("head")[0].appendChild(s);
+})();</script>
+
+  </body>
+</html>

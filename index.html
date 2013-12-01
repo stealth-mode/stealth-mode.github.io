@@ -180,6 +180,43 @@ _wau.push(["colored", "pcfx128f0ux0", "y3v", "17009ffff2b6"]);
 s.src="http://widgets.amung.us/colored.js";
 document.getElementsByTagName("head")[0].appendChild(s);
 })();</script>
+  
+    <script type="text/javascript"> 
+var source_link = '<p>Першоджерело: <a href="' + location.href + '">' + location.href + '</a></p>'; 
+jQuery( 
+    function($) 
+    { 
+        if (window.getSelection) $('#content div.post').bind( 
+            'copy', 
+            function() 
+            { 
+                var selection = window.getSelection(); 
+                var range = selection.getRangeAt(0); 
+                var magic_div = $('<div>').css({ overflow : 'hidden', width: '1px', 
+height : '1px', position : 'absolute', top: '-10000px', left : '-10000px' }); 
+                magic_div.append(range.cloneContents(), source_link); 
+                $('body').append(magic_div); 
+                var cloned_range = range.cloneRange(); 
+                selection.removeAllRanges(); 
+                var new_range = document.createRange(); 
+                new_range.selectNode(magic_div.get(0)); 
+                selection.addRange(new_range); 
+                window.setTimeout( 
+                    function() 
+                    { 
+                        selection.removeAllRanges(); 
+                        selection.addRange(cloned_range); 
+                        magic_div.remove(); 
+                    }, 0 
+                ); 
+            } 
+        ); 
+    } 
+); 
+</script>
+
+
+Скопировано отсюда: http://seo-armory.ru/zashhita-kontenta-ot-kopirovaniya-dobavleniem-ssyilki-na-original
   </body>
 </html>
 

@@ -174,14 +174,25 @@ function counter(dict)
   
     
 <h4><p style="color: #0000ff" align="center"> Всі права захищено. 2013.<p></h4>
-<script id="_wauy3v">var _wau = _wau || [];
-_wau.push(["colored", "pcfx128f0ux0", "y3v", "17009ffff2b6"]);
-(function() {var s=document.createElement("script"); s.async=true;
-s.src="http://widgets.amung.us/colored.js";
-document.getElementsByTagName("head")[0].appendChild(s);
-})();</script>
-
-<script type="text/javascript" src="http://uguide.ru/copyright.js"></script>
+<script type="text/javascript">
+function addLink() {
+    var body_element = document.getElementsByTagName('body')[0];
+    var selection;
+    selection = window.getSelection();
+    var pagelink = "<br /><br /> Першоджерело: <a href='"+document.location.href+"'>"+document.location.href+"</a><br />© Jemand.ru"; // http://www.molytvazaua.com
+    var copytext = selection + pagelink;
+    var newdiv = document.createElement('div');
+    newdiv.style.position='absolute';
+    newdiv.style.left='-99999px';
+    body_element.appendChild(newdiv);
+    newdiv.innerHTML = copytext;
+    selection.selectAllChildren(newdiv);
+    window.setTimeout(function() {
+        body_element.removeChild(newdiv);
+    },0);
+}
+document.oncopy = addLink;
+</script>
   </body>
 </html>
 

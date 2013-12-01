@@ -122,5 +122,26 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
+  
+    <h4><p style="color: #0000ff" align="center"> Всі права захищено. 2013.<p></h4>
+<script type="text/javascript">
+function addLink() {
+    var body_element = document.getElementsByTagName('body')[0];
+    var selection;
+    selection = window.getSelection();
+    var pagelink = "<br /><br /> Першоджерело: <a href='"+document.location.href+"'>"+document.location.href+"</a><br />© Jemand.ru"; // http://www.molytvazaua.com
+    var copytext = selection + pagelink;
+    var newdiv = document.createElement('div');
+    newdiv.style.position='absolute';
+    newdiv.style.left='-99999px';
+    body_element.appendChild(newdiv);
+    newdiv.innerHTML = copytext;
+    selection.selectAllChildren(newdiv);
+    window.setTimeout(function() {
+        body_element.removeChild(newdiv);
+    },0);
+}
+document.oncopy = addLink;
+</script>
   </body>
 </html>

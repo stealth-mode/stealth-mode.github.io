@@ -1,4 +1,4 @@
 molytvazaua.com
 RewriteEngine On 
-RewriteCond %{HTTP_HOST} ^сайт.ru 
-RewriteRule (.*) http://www.сайт.ru/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} molytvazaua.com 
+RewriteRule (.*) http://www.molytvazaua.com/$1 [R=301,L]
